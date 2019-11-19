@@ -1,5 +1,3 @@
---Michael Ashby, added to bootstrap tables for SQL Database. 
- 
 	SET IDENTITY_INSERT vets ON;
 	INSERT INTO vets (id, first_name, last_name) VALUES (1, 'James', 'Carter');
 	INSERT INTO vets (id, first_name, last_name) VALUES (2, 'Helen', 'Leary');
