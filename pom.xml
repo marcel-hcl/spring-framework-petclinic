@@ -558,7 +558,7 @@
 			<id>SQL Server</id>
 			<properties>
 				<db.script>sqlserver</db.script>
-				<jpa.database>SQL Server</jpa.database>
+				<jpa.database>SQLServer</jpa.database>
 				<jdbc.driverClassName>com.microsoft.sqlserver.jdbc.SQLServerD‌​river</jdbc.driverClassName>
 				<jdbc.url>jdbc:sqlserver://localhost:1433;databaseName=petclinic</jdbc.url>
 				<jdbc.username>sa</jdbc.username>
