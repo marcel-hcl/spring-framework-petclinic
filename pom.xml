@@ -523,7 +523,7 @@
 				<jpa.database>MYSQL</jpa.database>
 				<jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
 				<jdbc.url>jdbc:mysql://10.0.0.5:3306/petclinic</jdbc.url>
-				<jdbc.username>hcl</jdbc.username>
+				<jdbc.username>root</jdbc.username>
 				<jdbc.password>demo.123!</jdbc.password>
 			</properties>
 			<dependencies>
