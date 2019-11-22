@@ -522,7 +522,7 @@
 				<db.script>mysql</db.script>
 				<jpa.database>MYSQL</jpa.database>
 				<jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
-				<jdbc.url>jdbc:mysql://dbmysql.mysql.database.azure.com/petclinic?useSSL=true</jdbc.url>
+				<jdbc.url>jdbc:mysql://10.0.0.5:3306/petclinic</jdbc.url>
 				<jdbc.username>hcl@dbmysql</jdbc.username>
 				<jdbc.password>demo.123!</jdbc.password>
 			</properties>
