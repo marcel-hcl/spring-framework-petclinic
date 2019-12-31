@@ -488,6 +488,21 @@
 					</to>
 				</configuration>
 			</plugin>
+			
+			<plugin>
+   				<groupId>org.apache.tomcat.maven</groupId>
+   				<artifactId>tomcat7-maven-plugin</artifactId>
+   				<version>2.2</version>
+   				<configuration>
+      				<url>http://localhost:8080</url>
+      				<path>/petclinic</path>
+      				<!-- Set update to true to avoid exist war package can not be override error -->
+      				<update>true</update>
+      				<!-- Because deploy this maven project using plugin in pom so use the manager-script role user. -->
+     	 			<username>tomcat</username>
+      				<password>tomcat</password>
+   				</configuration>
+			</plugin>
 
 		</plugins>
 	</build>
@@ -522,9 +537,9 @@
 				<db.script>mysql</db.script>
 				<jpa.database>MYSQL</jpa.database>
 				<jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
-				<jdbc.url>jdbc:mysql://10.0.0.5:3306/petclinic</jdbc.url>
-				<jdbc.username>root</jdbc.username>
-				<jdbc.password>demo.123!</jdbc.password>
+				<jdbc.url>jdbc:mysql://10.183.3.6:3306/petclinic</jdbc.url>
+				<jdbc.username>hcl</jdbc.username>
+				<jdbc.password>HCLdemo.123!</jdbc.password>
 			</properties>
 			<dependencies>
 				<dependency>
