@@ -3,6 +3,6 @@ node {
 	git 'https://github.com/marcel-hcl/spring-framework-petclinic/'
 }
 	stage('Build'){
-	sh 'mvn package'
+	sh 'mvn -Dmaven.test.failure.ignore=true install'
 	}
 }
